@@ -1,0 +1,21 @@
+[
+    {"name":"Appitizers", "type":["Chips.", "Meat and Cheese tray."], 
+    "Indgredients":["Potatoes, salt, seasoning, Ham, turkey, american cheese, colby jack cheese, crackers."],
+    "Description":["A bag of chips from your choice of size and kind, And a small tray of mean, cheese, and crackers."] },
+
+    {"name":"Cold Sandwiches", "type":["Ham Sandwich", "Turkey Sandwhich"], 
+    "Indgredients":["Bread of choice with ham/turkey, cheese, with the condiments of your choice."],
+    "Description":["A nice cooled sandwich of your choice."]},
+
+    {"name":"Hot Sandwiches", "type":["Toasted Ham Sandwich", "Toasted Turkey Sandwhich"],
+    "Indgredients":["Toasted bread of choice with ham/turkey, cheese, with the condiments of your choice."],
+    "Description":["A nice cooled sandwich of your choice."] },
+
+    {"name":"Desserts", "type":["Banana Split", "Chocolate Cake"],
+    "Indgredients":["Banana with ice cream and syrup and cherry topping, a homeade chocolate cake with icing"],
+    "Description":["The choice of your dessert than will be amazing!"]},
+
+    {"name":"Drinks", "type":["Tea.", "Lemonade."],
+    "Indgredients":["Tea bag brewed with water and added sugar, Lemon juice with sugar with added water and sturred."],
+    "Description":["A Nice refeshing drink to go alond with your meal."]}
+]

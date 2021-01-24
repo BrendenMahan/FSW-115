@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Deli Menu</p>
+
+<p id="demo"></p>
+
+<script>
+var myObj, i, j, x = "";
+myObj = {
+  "menu": [
+    {"name":"Appitizers", "type":["Chips.", "Meat and Cheese tray."], 
+    "Indgredients":["Potatoes, salt, seasoning, Ham, turkey, american cheese, colby jack cheese, crackers."],
+    "Description":["A bag of chips from your choice of size and kind, And a small tray of mean, cheese, and crackers."] },
+
+    {"name":"Cold Sandwiches", "type":["Ham Sandwich", "Turkey Sandwhich"], 
+    "Indgredients":["Bread of choice with ham/turkey, cheese, with the condiments of your choice."],
+    "Description":["A nice cooled sandwich of your choice."]},
+
+    {"name":"Hot Sandwiches", "type":["Toasted Ham Sandwich", "Toasted Turkey Sandwhich"],
+    "Indgredients":["Toasted bread of choice with ham/turkey, cheese, with the condiments of your choice."],
+    "Description":["A nice cooled sandwich of your choice."] },
+
+    {"name":"Desserts", "type":["Banana Split", "Chocolate Cake"],
+    "Indgredients":["Banana with ice cream and syrup and cherry topping, a homeade chocolate cake with icing"],
+    "Description":["The choice of your dessert than will be amazing!"]},
+
+    {"name":"Drinks", "type":["Tea.", "Lemonade."],
+    "Indgredients":["Tea bag brewed with water and added sugar, Lemon juice with sugar with added water and sturred."],
+    "Description":["A Nice refeshing drink to go alond with your meal."]}
+  ]
+}
+for (i in myObj.menu) {
+  x += "<h2>" + myObj.menu[i].name + "</h2>";
+  for (j in myObj.menu[i].type) {
+    x += myObj.menu[i].type[j] + "<br>";}
+    for (j in myObj.menu[i].Indgredients) {
+    x += myObj.menu[i].Indgredients[j] + "<br>";}
+    for (j in myObj.menu[i].Description) {
+    x += myObj.menu[i].Description[j] + "<br>";
+  }
+}
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
